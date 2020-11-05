@@ -92,7 +92,7 @@ def list_files():
             status = files
             print(status)
 
-gi
+
 choose = input("ListFiles: '1':  \nCopy Files: '2':  \nCopy Folder: '3':   \nMove Files: 4:\nDelete: 5: \nRename:'6': ")
 if '1' in choose:
     list_files()
